@@ -1,5 +1,21 @@
-git checkout -b "features/M-C_2"
+# Ejemplo de secuencia de acciones para crear una rama y hacer un
+# merge de la misma con master
+
+nano E
+
+git add .
+git commit -m "E"
+git push
+
+git checkout -b "features/mE"
+
+nano E
+
+git add .
+git commit -m "mE"
 
 git checkout master
 
-git merge --no-ff features/M-C_2
+git merge --no-ff features/mE
+
+git push
