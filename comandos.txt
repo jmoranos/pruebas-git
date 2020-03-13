@@ -1,0 +1,5 @@
+git checkout -b "features/M-C_2"
+
+git checkout master
+
+git merge --no-ff features/M-C_2
