@@ -7,17 +7,17 @@ git add .
 git commit -m "E"
 git push
 
-git checkout -b "features/mE"
+> git checkout -b "features/mE"
 
 nano E
 
 git add .
 git commit -m "mE"
 
-git push origin features/mE
+> git push origin features/mE
 
-git checkout master
+> git checkout master
 
-git merge --no-ff features/mE
+> git merge --no-ff features/mE
 
-git push
+> git push
