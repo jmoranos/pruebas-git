@@ -21,3 +21,25 @@ git commit -m "mE"
 > git merge --no-ff features/mE
 
 > git push
+
+
+
+========================================================================================
+
+Secuencia mínima de ejemplo:
+
+
+git checkout -b "feature/FeatureName"
+
+# Se hacen las modificaciones
+
+git add .
+git commit -m "Explicación de cambios de FeatureName."
+
+git push origin feature/FeatureName
+
+git checkout master
+
+git merge --no-ff feature/FeatureName
+
+git push
